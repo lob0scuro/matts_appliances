@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding-inline: 1rem;
+}
+
+img#header-logo {
+  width: 10rem;
+  height: auto;
+}
+
+#menu-dots {
+  font-size: 2rem;
+}
