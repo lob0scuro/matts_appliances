@@ -47,8 +47,18 @@
             today!
           </p>
           <div class="button-block">
-            <button class="financing-button">Acima Leasing</button>
-            <button class="financing-button">Tower Loan Financing</button>
+            <button
+              class="financing-button"
+              onclick="document.getElementById('financing-section').scrollIntoView({ behavior: 'smooth' })"
+            >
+              Acima Leasing
+            </button>
+            <button
+              class="financing-button"
+              onclick="document.getElementById('financing-section').scrollIntoView({ behavior: 'smooth' })"
+            >
+              Tower Loan Financing
+            </button>
           </div>
         </div>
       </section>
@@ -223,13 +233,17 @@
     <footer>
       <div class="footer-location">
         <div class="footer-address">
-          <h3>Matt's Appliances</h3>
+          <h3>Matt's Appliances Lake Charles</h3>
           <p>2600 Common St.</p>
           <p>Lake Charles, LA, 70601</p>
           <p>(337) 244-7589</p>
         </div>
-        <div class="footer-maps-link">
-          <h3><a href="#" class="map-link">Get Directions</a></h3>
+        <br />
+        <div class="footer-address">
+          <h3>Matt's Appliances Jennings</h3>
+          <p>314 E Shankland Ave.</p>
+          <p>Lake Charles, LA, 70546</p>
+          <p>(337) 388-4350</p>
         </div>
       </div>
       <div class="footer-hours">
@@ -238,6 +252,9 @@
         <p>Friday: 10AM - 6PM</p>
         <p>Saturday: 10AM - 5PM</p>
         <p>Sunday: Closed</p>
+        <div class="footer-maps-link">
+          <h3><a href="#" class="map-link">Get Directions</a></h3>
+        </div>
       </div>
     </footer>
   </body>

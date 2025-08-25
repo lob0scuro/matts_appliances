@@ -7,6 +7,12 @@ footer {
   color: var(--light-blue);
   display: flex;
   justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+.footer-hours {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-maps-link h3 {
