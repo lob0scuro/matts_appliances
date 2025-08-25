@@ -1,9 +1,11 @@
 header {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 8rem;
   padding-inline: 1rem;
+  margin-bottom: 2rem;
 }
 
 img#header-logo {

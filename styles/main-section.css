@@ -98,3 +98,34 @@ section#hero div#financing div.button-block button.financing-button {
   width: 40rem;
   height: 20rem;
 }
+
+/*
+IMAGE BANNER
+*/
+
+section#image-banner {
+  height: 40rem;
+  width: 100%;
+  margin-top: 3rem;
+  background-image: url("../images/kitchen.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#image-banner h2 {
+  color: var(--white);
+  font-size: 5rem;
+  font-weight: 300;
+  text-align: center;
+}
+section#image-banner h2 span.scripted {
+  font-family: "Italianno", cursive;
+  font-size: 7rem;
+  color: var(--gray-blue);
+}
