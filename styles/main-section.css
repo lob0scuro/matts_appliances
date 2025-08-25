@@ -68,14 +68,19 @@ section#hero div#financing div.button-block {
 
 section#hero div#financing div.button-block button.financing-button {
   font-size: 1.8rem;
+  font-weight: 600;
   text-align: center;
-  padding-block: 1rem;
+  padding: 1rem 0;
   background-color: var(--dark-blue);
   color: var(--white);
-  border: 1px solid var(--white);
+  border: 2px solid var(--white);
   border-radius: 0.3rem;
-  box-shadow: -1px 4px 6px rgba(21, 25, 96, 0.407);
-  width: 350px;
+  box-shadow: -1px 4px 6px rgba(102, 102, 103, 0.468);
+  width: 380px;
+}
+section#hero div#financing div.button-block button.financing-button:hover {
+  background-color: var(--gray-blue);
+  color: var(--dark-blue);
 }
 
 /*
@@ -90,9 +95,9 @@ section#about {
   height: 35rem;
   padding: 18rem 0;
   gap: 5rem;
-  /* margin-top: 5rem; */
 
   background-color: var(--light-blue);
+  border-top: 60px solid var(--gray-blue);
 }
 
 section#about div:first-child {
@@ -133,6 +138,43 @@ section#about div.image-wrapper img.active {
 section#about img {
   width: 600px;
   height: auto;
+}
+
+/*
+SOCIAL BAR SECTION
+*/
+
+section#social-bar {
+  width: 100%;
+  height: 20rem;
+  background-color: var(--light-blue);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding-bottom: 3rem;
+
+  color: var(--dark-blue);
+
+  border-radius: 50% / 0 0 90px 90px;
+  border-bottom: 15px solid var(--gray-blue);
+}
+section#social-bar h2 {
+  font-size: 3rem;
+}
+
+section#social-bar div.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+  color: var(--dark-blue);
+}
+
+section#social-bar div.social-icons i {
+  font-size: 3rem;
 }
 
 /*VALIDATION*/
@@ -186,6 +228,7 @@ section#brands {
   gap: 0.3rem;
   background-color: var(--light-blue);
   border-radius: 50% / 100px 100px 0 0;
+  border-top: 15px solid var(--gray-blue);
   border-bottom: 60px solid var(--gray-blue);
 }
 
@@ -313,6 +356,11 @@ button.learn-more-about-financing {
   margin-top: 2rem;
 }
 
+button.learn-more-about-financing:hover {
+  background-color: var(--gray-blue);
+  color: var(--dark-blue);
+}
+
 /*
 CAROUSEL SECTION
 */
@@ -382,4 +430,9 @@ section#extended-warranty button.learn-more-about-warranty-button {
 
   box-shadow: -2px 2px 8px #525252;
   margin-top: 2rem;
+}
+
+section#extended-warranty button.learn-more-about-warranty-button:hover {
+  background-color: var(--dark-blue);
+  color: var(--gray-blue);
 }
