@@ -10,13 +10,14 @@ section#hero {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-  background-image: url("../images/oven.svg");
+  background-image: url("../images/front-desk.svg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   color: var(--white);
   padding: 0.8rem;
   text-align: center;
-  height: 90vh;
+  height: 80vh;
 }
 
 section#hero h1 {
@@ -24,11 +25,13 @@ section#hero h1 {
   font-size: 2.8rem;
   margin-top: 2rem;
   font-weight: 400;
+  text-transform: uppercase;
 }
 section#hero h2 {
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 section#hero p.hero-blurb {
@@ -50,24 +53,84 @@ section#hero div#financing {
 
 section#hero div#financing p {
   width: 50%;
+  color: var(--light-blue);
+  font-size: 20px;
 }
 
 section#hero div#financing div.button-block {
   display: flex;
-  gap: 5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   margin-top: 1rem;
+  width: 600px;
 }
 
 section#hero div#financing div.button-block button.financing-button {
   font-size: 1.8rem;
   text-align: center;
-  padding: 1rem 0.8rem;
+  padding-block: 1rem;
   background-color: var(--dark-blue);
   color: var(--white);
   border: 1px solid var(--white);
   border-radius: 0.3rem;
   box-shadow: -1px 4px 6px rgba(21, 25, 96, 0.407);
-  width: 400px;
+  width: 350px;
+}
+
+/*
+ABOUT SECTION
+*/
+
+section#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 28rem;
+  padding: 10rem 0 10rem 0;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+section#about div:first-child {
+  width: 25%;
+  text-align: start;
+  font-size: 22px;
+}
+
+section#about div:first-child h2.about-header {
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+
+section#about div.image-wrapper {
+  position: relative;
+  width: 600px;
+  height: 360px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 2px 2px 14px #000;
+}
+
+section#about div.image-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+section#about div.image-wrapper img.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+section#about img {
+  width: 600px;
+  height: auto;
 }
 
 /*VALIDATION*/
@@ -98,7 +161,7 @@ section#validate {
 }
 
 .validation-icon-wrapper p {
-  font-size: 16px;
+  font-size: 22px;
   width: 60%;
   text-align: center;
   margin-top: 1rem;
@@ -151,7 +214,7 @@ IMAGE BANNER
 */
 
 section#image-banner-1 {
-  height: 40rem;
+  height: 50rem;
   width: 100%;
   background-image: url("../images/kitchen.svg");
   background-position: center center;
@@ -166,14 +229,17 @@ section#image-banner-1 {
 
 section#image-banner-1 h2 {
   color: var(--white);
-  font-size: 5rem;
+  font-size: 6rem;
+  font-style: italic;
   font-weight: 300;
   text-align: center;
+  transform: translateX(-8px);
 }
 section#image-banner-1 h2 span.scripted {
   font-family: "Italianno", cursive;
-  font-size: 7rem;
+  font-size: 8rem;
   color: var(--gray-blue);
+  margin-right: 4px;
 }
 
 /*
@@ -190,7 +256,7 @@ section#financing-section {
   gap: 6rem;
 }
 section#financing-section h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   color: var(--dark-blue);
 }
@@ -199,12 +265,12 @@ section#financing-section div.leasing-option {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 section#financing-section div.leasing-option img {
-  width: 400px;
+  width: 450px;
   height: auto;
+  box-shadow: -3px 3px 12px #000000;
 }
 
 h3.acima-header {
@@ -212,6 +278,9 @@ h3.acima-header {
 }
 
 .acima-text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   text-align: end;
 }
 
@@ -220,6 +289,95 @@ section#financing-section div.leasing-option div.leasing-text-block {
   display: flex;
   flex-direction: column;
 }
+section#financing-section div.leasing-option div.leasing-text-block h3 {
+  font-size: 30px;
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
 section#financing-section div.leasing-option div.leasing-text-block p {
   width: 80%;
+  font-size: 24px;
+}
+
+button.learn-more-about-financing {
+  width: fit-content;
+  padding: 12px 22px;
+  font-size: 24px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  box-shadow: -2px 2px 6px #000;
+  border-radius: 8px;
+
+  margin-top: 2rem;
+}
+
+/*
+CAROUSEL SECTION
+*/
+
+section#carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  padding: 4rem 0 9rem 0;
+  gap: 1rem;
+
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+}
+
+section#carousel h2 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+section#carousel div.carousel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+section#carousel div.carousel img {
+  width: 325px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 1px -1px 5px #000;
+}
+
+/*
+EXTENDED WARRANTY SECTION
+*/
+
+section#extended-warranty {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--white);
+
+  background-image: url("../images/store-front.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#extended-warranty button.learn-more-about-warranty-button {
+  background-color: var(--gray-blue);
+  color: var(--dark-blue);
+  border: none;
+  border-radius: 8px;
+
+  padding: 1rem 1.8rem;
+  font-size: 24px;
+
+  box-shadow: -2px 2px 8px #525252;
+  margin-top: 2rem;
 }

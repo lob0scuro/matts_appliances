@@ -4,3 +4,21 @@ const yearsOpen = currentDate.getFullYear() - openedOn.getFullYear();
 
 const thisLong = document.getElementById("this-long");
 thisLong.textContent = yearsOpen;
+
+const images = document.querySelectorAll(".image-wrapper img");
+let currentIndex = 0;
+
+const showImage = (index) => {
+  images.forEach((img, i) => {
+    img.classList.toggle("active", i === index);
+  });
+};
+
+const nextImage = () => {
+  currentIndex = (currentIndex + 1) % images.length;
+  showImage(currentIndex);
+};
+
+showImage(currentIndex);
+
+setInterval(nextImage, 3000);
