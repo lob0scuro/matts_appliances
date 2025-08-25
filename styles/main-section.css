@@ -77,6 +77,8 @@ section#hero div#financing div.button-block button.financing-button {
   border-radius: 0.3rem;
   box-shadow: -1px 4px 6px rgba(102, 102, 103, 0.468);
   width: 380px;
+
+  transition: background-color 1s ease;
 }
 section#hero div#financing div.button-block button.financing-button:hover {
   background-color: var(--gray-blue);
@@ -175,6 +177,10 @@ section#social-bar div.social-icons {
 
 section#social-bar div.social-icons i {
   font-size: 3rem;
+}
+
+section#social-bar div.social-icons i:hover {
+  color: var(--gray-blue);
 }
 
 /*VALIDATION*/
@@ -354,6 +360,8 @@ button.learn-more-about-financing {
   border-radius: 8px;
 
   margin-top: 2rem;
+
+  transition: background-color 1s ease;
 }
 
 button.learn-more-about-financing:hover {
@@ -430,6 +438,8 @@ section#extended-warranty button.learn-more-about-warranty-button {
 
   box-shadow: -2px 2px 8px #525252;
   margin-top: 2rem;
+
+  transition: background-color 1s ease;
 }
 
 section#extended-warranty button.learn-more-about-warranty-button:hover {
