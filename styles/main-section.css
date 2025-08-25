@@ -16,13 +16,19 @@ section#hero {
   color: var(--white);
   padding: 0.8rem;
   text-align: center;
-  height: 80vh;
+  height: 90vh;
 }
 
 section#hero h1 {
   text-align: center;
   font-size: 2.8rem;
   margin-top: 2rem;
+  font-weight: 400;
+}
+section#hero h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 section#hero p.hero-blurb {
@@ -66,11 +72,15 @@ section#hero div#financing div.button-block button.financing-button {
 
 /*VALIDATION*/
 
+section#validate {
+  padding: 2rem 2rem 8rem 2rem;
+}
+
 .validation-icon-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 0.5rem;
+  gap: 0.2rem;
   justify-items: center;
 }
 
@@ -100,13 +110,49 @@ section#hero div#financing div.button-block button.financing-button {
 }
 
 /*
+BRANDS SECTION
+*/
+
+section#brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8rem 2rem;
+  gap: 0.3rem;
+  background-color: var(--light-blue);
+  border-radius: 50% / 100px 100px 0 0;
+  border-bottom: 60px solid var(--gray-blue);
+}
+
+section#brands h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  width: 30%;
+}
+
+section#brands div.brand-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+section#brands img.ge-logo {
+  width: 100px;
+  margin: 0;
+  justify-self: center;
+}
+
+section#brands img {
+  width: 150px;
+  margin: 2rem;
+}
+
+/*
 IMAGE BANNER
 */
 
-section#image-banner {
+section#image-banner-1 {
   height: 40rem;
   width: 100%;
-  margin-top: 3rem;
   background-image: url("../images/kitchen.svg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -118,14 +164,62 @@ section#image-banner {
   align-items: center;
 }
 
-section#image-banner h2 {
+section#image-banner-1 h2 {
   color: var(--white);
   font-size: 5rem;
   font-weight: 300;
   text-align: center;
 }
-section#image-banner h2 span.scripted {
+section#image-banner-1 h2 span.scripted {
   font-family: "Italianno", cursive;
   font-size: 7rem;
   color: var(--gray-blue);
+}
+
+/*
+FINANCING SECTION
+*/
+
+section#financing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 8rem 2rem;
+  gap: 6rem;
+}
+section#financing-section h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+section#financing-section div.leasing-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+section#financing-section div.leasing-option img {
+  width: 400px;
+  height: auto;
+}
+
+h3.acima-header {
+  align-self: flex-end;
+}
+
+.acima-text-block {
+  text-align: end;
+}
+
+section#financing-section div.leasing-option div.leasing-text-block {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+section#financing-section div.leasing-option div.leasing-text-block p {
+  width: 80%;
 }
