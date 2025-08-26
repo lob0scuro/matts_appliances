@@ -30,6 +30,10 @@ a {
   font-weight: 500;
 }
 
+.bolded {
+  font-weight: 700;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -42,4 +46,5 @@ body {
 
 main {
   flex: 1;
+  width: 100%;
 }

@@ -1,0 +1,120 @@
+section#acima-hero {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("../../images/kitchen.svg");
+  background-size: cover;
+  background-position: center center;
+
+  color: var(--white);
+}
+
+section#acima-hero h1 {
+  font-size: 5rem;
+}
+
+section#acima-hero h2 {
+  font-size: 2.5rem;
+  width: 80%;
+  text-align: center;
+  font-weight: 400;
+}
+
+section#acima-hero b {
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: var(--gray-blue);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+/*
+ACIMA INFO SECTION
+*/
+
+section#acima-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding-block: 3rem;
+}
+
+section#acima-info div.terms-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+section#acima-info div.terms-block h3 {
+  font-size: 2.5rem;
+}
+
+section#acima-info ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  font-size: 18px;
+}
+
+section#acima-info ul li:last-child {
+  margin-top: 1.5rem;
+}
+
+section#acima-info img.acima-page-flyer {
+  width: 450px;
+}
+
+section#acima-call-to-action {
+  width: 100%;
+  height: 12rem;
+  padding-bottom: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.4rem;
+}
+
+section#acima-call-to-action h3 a {
+  color: var(--primary-blue);
+  text-decoration: underline;
+}
+
+section#acima-call-to-action h3 a:hover {
+  color: var(--gray-blue);
+}
+
+/*
+ACIMA IMAGE BANNER SECTION
+*/
+
+section#acima-image-banner {
+  width: 100%;
+  height: 34rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 4rem;
+  color: var(--gray-blue);
+
+  background-image: url("../../images/store-front.svg");
+  background-size: cover;
+  background-position: center center;
+
+  border-radius: 50% / 100px 100px 0 0;
+}
+
+section#acima-image-banner h2 {
+  font-weight: 400;
+}
