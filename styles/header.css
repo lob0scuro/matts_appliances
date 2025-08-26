@@ -3,13 +3,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12rem;
+  height: 10rem;
   padding-inline: 1rem;
   margin-bottom: 2rem;
 }
 
 img#header-logo {
-  width: 10rem;
+  width: 14rem;
   height: auto;
 }
 

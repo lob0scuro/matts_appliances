@@ -22,22 +22,16 @@ section#hero {
 
 section#hero h1 {
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 4rem;
   margin-top: 2rem;
   font-weight: 400;
   text-transform: uppercase;
 }
 section#hero h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.6rem;
   font-weight: 300;
   text-transform: uppercase;
-}
-
-section#hero p.hero-blurb {
-  font-size: 18px;
-  width: 60%;
-  margin: 0 auto;
 }
 
 section#hero div#financing {
@@ -52,9 +46,9 @@ section#hero div#financing {
 }
 
 section#hero div#financing p {
-  width: 50%;
+  width: 65%;
   color: var(--light-blue);
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 section#hero div#financing div.button-block {
@@ -62,7 +56,7 @@ section#hero div#financing div.button-block {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   width: 600px;
 }
 
@@ -70,11 +64,11 @@ section#hero div#financing div.button-block button.financing-button {
   font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1.2rem 0;
   background-color: var(--dark-blue);
   color: var(--white);
   border: 2px solid var(--white);
-  border-radius: 0.3rem;
+  border-radius: 8px;
   box-shadow: -1px 4px 6px rgba(102, 102, 103, 0.468);
   width: 380px;
 
@@ -290,7 +284,7 @@ section#image-banner-1 h2 span.scripted {
   font-family: "Italianno", cursive;
   font-size: 8rem;
   color: var(--gray-blue);
-  margin-right: 4px;
+  margin-right: 10px;
 }
 
 /*
@@ -412,7 +406,7 @@ EXTENDED WARRANTY SECTION
 
 section#extended-warranty {
   width: 100%;
-  height: 35rem;
+  height: 40rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;

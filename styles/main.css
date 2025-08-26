@@ -25,6 +25,11 @@ a {
   font-family: "Italianno", cursive;
 }
 
+.colored {
+  color: var(--gray-blue);
+  font-weight: 500;
+}
+
 body {
   display: flex;
   flex-direction: column;
