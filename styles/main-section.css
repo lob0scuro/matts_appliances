@@ -109,11 +109,12 @@ section#about div:first-child h2.about-header {
 
 section#about div.image-wrapper {
   position: relative;
-  width: 600px;
+  width: 550px;
   height: 450px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 2px 2px 14px #000;
+  background-color: transparent;
 }
 
 section#about div.image-wrapper img {
