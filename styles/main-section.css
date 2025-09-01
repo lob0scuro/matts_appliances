@@ -359,6 +359,12 @@ button.learn-more-about-financing {
   transition: background-color 1s ease;
 }
 
+a.learn-more-finance-wrapper {
+  border: 1px solid blue;
+  width: fit-content;
+  height: auto;
+}
+
 button.learn-more-about-financing:hover {
   background-color: var(--gray-blue);
   color: var(--dark-blue);
