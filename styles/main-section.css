@@ -360,9 +360,7 @@ button.learn-more-about-financing {
 }
 
 a.learn-more-finance-wrapper {
-  border: 1px solid blue;
   width: fit-content;
-  height: auto;
 }
 
 button.learn-more-about-financing:hover {
