@@ -21,6 +21,12 @@ a {
   color: inherit;
 }
 
+a.active {
+  text-decoration: underline;
+  color: var(--primary-blue);
+  font-weight: 700;
+}
+
 .scripted {
   font-family: "Italianno", cursive;
 }

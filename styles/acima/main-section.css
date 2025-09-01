@@ -6,9 +6,10 @@ section#acima-hero {
   align-items: center;
   justify-content: center;
 
-  background-image: url("../../images/kitchen.svg");
+  background-image: url("../../images/bg-images/kitchen.svg");
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
 
   color: var(--white);
 }
