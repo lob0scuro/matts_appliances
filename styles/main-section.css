@@ -10,7 +10,7 @@ section#hero {
   flex-direction: column;
   justify-content: center;
   gap: 2rem;
-  background-image: url("../images/front-desk.svg");
+  background-image: url("../images/bg-images/front-desk.svg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -88,8 +88,8 @@ section#about {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 35rem;
-  padding: 18rem 0;
+  height: 40rem;
+  padding: 22rem 0;
   gap: 5rem;
 
   background-color: var(--light-blue);
@@ -110,7 +110,7 @@ section#about div:first-child h2.about-header {
 section#about div.image-wrapper {
   position: relative;
   width: 600px;
-  height: 360px;
+  height: 450px;
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 2px 2px 14px #000;
@@ -261,7 +261,7 @@ IMAGE BANNER
 section#image-banner-1 {
   height: 50rem;
   width: 100%;
-  background-image: url("../images/kitchen.svg");
+  background-image: url("../images/bg-images/kitchen.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -415,7 +415,7 @@ section#extended-warranty {
   font-size: 2rem;
   color: var(--white);
 
-  background-image: url("../images/store-front.svg");
+  background-image: url("../images/bg-images/store-front.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

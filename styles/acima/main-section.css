@@ -108,7 +108,7 @@ section#acima-image-banner {
   font-size: 4rem;
   color: var(--gray-blue);
 
-  background-image: url("../../images/store-front.svg");
+  background-image: url("../../images/bg-images/front-desk.svg");
   background-size: cover;
   background-position: center center;
 
