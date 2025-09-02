@@ -1,0 +1,15 @@
+@media screen and (max-width: 1080px) {
+  footer {
+    font-size: 1rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  footer img#footer-logo {
+    display: none;
+  }
+
+  footer h3 a.map-link {
+    display: none;
+  }
+}

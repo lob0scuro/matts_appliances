@@ -67,3 +67,14 @@ main {
   flex: 1;
   width: 100%;
 }
+
+@media screen and (max-width: 1080px) {
+  body,
+  html {
+    display: flex;
+    overflow-x: hidden;
+    height: auto;
+    max-width: 1080px;
+    width: 100svw;
+  }
+}

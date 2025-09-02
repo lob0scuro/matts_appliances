@@ -1,0 +1,16 @@
+@media screen and (max-width: 1080px) {
+  header {
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  header img#header-logo {
+    width: 10rem;
+  }
+
+  header nav {
+    display: none;
+  }
+}

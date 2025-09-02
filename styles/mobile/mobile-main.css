@@ -1,0 +1,188 @@
+@media screen and (max-width: 1080px) {
+  main {
+    width: 100svw;
+    margin: 0;
+    padding: 0;
+  }
+  section#hero {
+    height: auto;
+    background-attachment: unset;
+  }
+  section#hero h1 {
+    font-size: 1.5rem;
+  }
+  section#hero h2 {
+    font-size: 1.2rem;
+  }
+
+  section#hero div#financing {
+    width: 100%;
+  }
+  section#hero div#financing p {
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  section#hero div#financing div.button-block button.financing-button {
+    width: 50%;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  section#about {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+  }
+  section#about div:first-child {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section#about div:first-child p {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  section#about div.carousel {
+    width: 80%;
+  }
+  section#about img {
+    width: 100%;
+  }
+
+  section#social-bar h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+  section#social-bar div.social-icons i {
+    font-size: 2.2rem;
+  }
+
+  section#validate {
+    padding: 4rem 0 8rem 0;
+  }
+
+  section#validate div.validation-icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+  section#validate div.validation-icon-wrapper h3 {
+    font-size: 1.8rem;
+  }
+  section#validate div.validation-icon-wrapper p {
+    font-size: 1.2rem;
+  }
+
+  section#brands {
+    flex-direction: column;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+  }
+  section#brands h2 {
+    font-size: 1.5rem;
+    width: 80%;
+  }
+  section#brands div.brand-logos {
+    grid-template-columns: 1fr 1fr;
+  }
+  section#brands img {
+    width: 120px;
+    margin: 1.5rem;
+  }
+  section#brands img.ge-logo {
+    width: 80px;
+    margin: 0;
+    justify-self: center;
+  }
+
+  section#image-banner-1 {
+    height: 35rem;
+    background-attachment: unset;
+  }
+  section#image-banner-1 h2 {
+    font-size: 2.5rem;
+  }
+  section#image-banner-1 h2 span.scripted {
+    font-family: "Italianno", cursive;
+    font-size: 6rem;
+    color: var(--gray-blue);
+    margin-right: 10px;
+  }
+
+  section#financing-section {
+    padding: 6rem 0 4rem 0;
+    gap: 4rem;
+  }
+  section#financing-section h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--dark-blue);
+  }
+  section#financing-section div.leasing-option {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  section#financing-section div.leasing-option img {
+    width: 250px;
+    height: auto;
+    box-shadow: -3px 3px 12px #000000;
+  }
+  h3.acima-header {
+    align-self: center;
+  }
+  .acima-text-block {
+    align-items: center;
+  }
+
+  section#financing-section div.leasing-option div.leasing-text-block {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  section#financing-section div#tower-loan {
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+  }
+  section#financing-section div.tower-loan-text-block {
+    text-align: center;
+    align-items: center;
+  }
+
+  section#gallery {
+    padding: 2rem 0 4rem 0;
+    height: auto;
+  }
+
+  section#gallery h2 {
+    font-size: 1.6rem;
+  }
+
+  section#gallery div.gallery-row {
+    display: flex;
+    flex-direction: column;
+  }
+  section#gallery div.gallery-row img {
+    width: 300px;
+    height: 350px;
+  }
+
+  section#extended-warranty {
+    height: auto;
+    padding: 3rem 0;
+  }
+  section#extended-warranty h3 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  section#extended-warranty h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  section#extended-warranty h4 {
+    font-size: 1.8rem;
+  }
+}
