@@ -5,7 +5,7 @@ const yearsOpen = currentDate.getFullYear() - openedOn.getFullYear();
 const thisLong = document.getElementById("this-long");
 thisLong.textContent = yearsOpen;
 
-const images = document.querySelectorAll(".image-wrapper img");
+const images = document.querySelectorAll(".carousel img");
 let currentIndex = 0;
 
 const showImage = (index) => {
