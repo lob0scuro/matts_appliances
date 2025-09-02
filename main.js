@@ -22,3 +22,12 @@ const nextImage = () => {
 showImage(currentIndex);
 
 setInterval(nextImage, 3000);
+
+//Mobile Header Logic
+
+const menuDots = document.getElementById("menu-dots");
+const navLinks = document.getElementById("nav-links");
+
+menuDots.addEventListener("click", () => {
+  navLinks.classList.toggle("hide");
+});

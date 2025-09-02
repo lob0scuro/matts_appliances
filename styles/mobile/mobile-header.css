@@ -1,16 +1,46 @@
 @media screen and (max-width: 1080px) {
   header {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     height: auto;
     margin-bottom: 0;
+    padding-inline: 2rem;
   }
 
   header img#header-logo {
     width: 10rem;
   }
 
-  header nav {
+  header i.mobile-menu-dots {
+    display: block;
+    font-size: 2.2rem;
+    color: var(--dark-blue);
+  }
+
+  header div.mobile-spacer {
+    display: block;
+    width: 3.2rem;
+  }
+
+  header nav#nav-links {
+    flex: 1;
+    gap: 0.6rem;
+  }
+  header nav#nav-links a {
+    font-size: 0.7rem;
+  }
+  header nav#nav-links a.leasing-nav-link {
+    background-color: transparent;
+    color: var(--dark-blue);
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    font-weight: 900;
+    font-size: 0.8rem;
+  }
+
+  header nav#nav-links.hide {
     display: none;
   }
 }
