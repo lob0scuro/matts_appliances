@@ -40,6 +40,15 @@ a.active {
   font-weight: 700;
 }
 
+div.in-progress {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--dark-blue);
+}
+
 html {
   scroll-behavior: smooth;
 }

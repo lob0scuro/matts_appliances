@@ -417,13 +417,24 @@ section#extended-warranty {
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  /* font-size: 2rem; */
   color: var(--white);
 
   background-image: url("../images/bg-images/store-front.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+section#extended-warranty h3 {
+  font-size: 3.5rem;
+}
+section#extended-warranty h2 {
+  font-size: 3rem;
+}
+section#extended-warranty h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 section#extended-warranty button.learn-more-about-warranty-button {
