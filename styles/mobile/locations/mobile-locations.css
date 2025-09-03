@@ -1,0 +1,29 @@
+@media screen and (max-width: 1080px) {
+  section#location-hero {
+    width: 100%;
+    height: auto;
+    padding-block: 2rem;
+  }
+
+  section#location-hero h1 {
+    font-size: 2rem;
+  }
+  section#location-hero h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  section#locations {
+    height: auto;
+    padding-block: 4rem;
+  }
+  section#locations div.location-block {
+    flex-direction: column;
+    width: 80%;
+  }
+  section#locations div.location-block img.location-image {
+    width: 250px;
+    height: auto;
+  }
+}

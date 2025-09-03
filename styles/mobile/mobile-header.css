@@ -25,10 +25,10 @@
 
   header nav#nav-links {
     flex: 1;
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
   header nav#nav-links a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   header nav#nav-links a.leasing-nav-link {
     background-color: transparent;
@@ -36,8 +36,8 @@
     border: none;
     box-shadow: none;
     padding: 0;
-    font-weight: 900;
-    font-size: 0.8rem;
+    font-weight: 700;
+    /* font-size: 0.9rem; */
   }
 
   header nav#nav-links.hide {
