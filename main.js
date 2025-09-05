@@ -3,7 +3,9 @@ const currentDate = new Date();
 const yearsOpen = currentDate.getFullYear() - openedOn.getFullYear();
 
 const thisLong = document.getElementById("this-long");
-thisLong.textContent = yearsOpen;
+if (thisLong) {
+  thisLong.textContent = yearsOpen;
+}
 
 const images = document.querySelectorAll(".carousel img");
 let currentIndex = 0;
@@ -29,5 +31,6 @@ const menuDots = document.getElementById("menu-dots");
 const navLinks = document.getElementById("nav-links");
 
 menuDots.addEventListener("click", () => {
+  console.log("done");
   navLinks.classList.toggle("hide");
 });

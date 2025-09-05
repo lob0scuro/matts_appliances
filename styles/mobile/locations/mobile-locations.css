@@ -26,4 +26,8 @@
     width: 250px;
     height: auto;
   }
+
+  section#locations div#jn-store {
+    flex-direction: column-reverse;
+  }
 }

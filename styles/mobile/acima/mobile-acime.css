@@ -1,0 +1,36 @@
+@media screen and (max-width: 1080px) {
+  section#acima-hero {
+    width: 100%;
+    height: auto;
+    padding-block: 2rem;
+  }
+  section#acima-hero h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  section#acima-hero h2 {
+    font-size: 1.2rem;
+  }
+
+  section#acima-info {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  section#acima-info img.acima-page-flyer {
+    margin-top: 1rem;
+    width: 200px;
+  }
+
+  section#acima-call-to-action {
+    text-align: center;
+  }
+
+  section#acima-image-banner {
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 50% / 50px 50px 0 0;
+  }
+}
