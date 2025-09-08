@@ -1,4 +1,6 @@
-section#tl-hero {
-  width: 100%;
-  height: auto;
+@media screen and (max-width: 1080px) {
+  section#tl-hero {
+    width: 100%;
+    height: auto;
+  }
 }
