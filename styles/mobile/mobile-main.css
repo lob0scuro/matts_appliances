@@ -47,10 +47,14 @@
     width: 80%;
   }
   section#about div.carousel {
-    width: 80%;
+    width: 90%;
   }
-  section#about img {
+  section#about div.carousel img {
     width: 100%;
+  }
+
+  section#social-bar {
+    border-radius: 50% / 0 0 60px 60px;
   }
 
   section#social-bar h2 {
@@ -80,6 +84,7 @@
     flex-direction: column;
     padding-bottom: 4rem;
     padding-top: 4rem;
+    border-radius: 50% / 60px 60px 0 0;
   }
   section#brands h2 {
     font-size: 1.5rem;
