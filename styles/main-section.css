@@ -18,6 +18,31 @@ section#hero {
   padding: 0.8rem;
   text-align: center;
   height: 80vh;
+
+  position: relative;
+  overflow: hidden;
+}
+
+#hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+div.hero-overlay {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
 }
 
 section#hero h1 {

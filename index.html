@@ -52,25 +52,38 @@
     <main>
       <!--Hero section to include our company name, action buttons for financing, and a short blurb about us.-->
       <section id="hero">
-        <h1>SWLA's New & Used Appliance Superstore</h1>
-        <h2>
-          Come and checkout our new
-          <span class="colored">Scratch & Dent</span> inventory
-        </h2>
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          id="hero-video"
+          poster="./images/bg-images/front-desk.svg"
+        >
+          <source src="./images/bg-images/drone-shot.mp4" type="video/mp4" />
+          Your browser does not support HMTL5 video
+        </video>
+        <div class="hero-overlay">
+          <h1>SWLA's New & Used Appliance Superstore</h1>
+          <h2>
+            Come and checkout our new
+            <span class="colored">Scratch & Dent</span> inventory
+          </h2>
 
-        <div id="financing">
-          <p>
-            We don't want anything to get in the way of the necessities. That's
-            why we offer top tier leasing and financing options to get you the
-            appliance you need, today!
-          </p>
-          <div class="button-block">
-            <button
-              class="financing-button"
-              onclick="document.getElementById('financing-section').scrollIntoView({ behavior: 'smooth' })"
-            >
-              Explore Payment Plans
-            </button>
+          <div id="financing">
+            <p>
+              We don't want anything to get in the way of the necessities.
+              That's why we offer top tier leasing and financing options to get
+              you the appliance you need, today!
+            </p>
+            <div class="button-block">
+              <button
+                class="financing-button"
+                onclick="document.getElementById('financing-section').scrollIntoView({ behavior: 'smooth' })"
+              >
+                Explore Payment Plans
+              </button>
+            </div>
           </div>
         </div>
       </section>
