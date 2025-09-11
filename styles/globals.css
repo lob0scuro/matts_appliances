@@ -77,4 +77,12 @@ main {
     max-width: 1080px;
     width: 100svw;
   }
+
+  div.in-progress {
+    font-size: 1rem;
+    align-items: flex-start;
+    text-align: center;
+    height: auto;
+    padding-block: 5rem;
+  }
 }
