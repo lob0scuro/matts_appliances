@@ -1,0 +1,36 @@
+section#lifetime-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  color: var(--white);
+
+  width: 100%;
+  height: 25rem;
+  background-image: url("../../images/bg-images/lifetime-bg-graphic.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  font-size: 1.5rem;
+}
+
+section#lifetime-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  padding-block: 3rem;
+}
+
+section#lifetime-info div.lifetime-text-block {
+  width: 80%;
+  text-align: center;
+}
+
+section#lifetime-info img.lifetime-graphic {
+  width: 450px;
+}
