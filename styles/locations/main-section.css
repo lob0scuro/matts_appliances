@@ -35,6 +35,11 @@ section#locations div.location-block {
   width: 80%;
   gap: 2rem;
 }
+div#lc-store div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 div.location-block div h2 {
   font-size: 2.4rem;
   color: var(--dark-blue);
@@ -46,6 +51,9 @@ p.location-block-subheading {
 }
 p.location-block-desc {
   font-size: 18px;
+}
+p.lc-desc {
+  text-align: end;
 }
 
 section#locations div.location-block img.location-image {

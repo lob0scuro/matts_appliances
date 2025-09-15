@@ -20,7 +20,23 @@
   }
   section#locations div.location-block {
     flex-direction: column;
+    align-items: center;
     width: 80%;
+  }
+  div.location-block div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.location-block div p {
+    text-align: center;
+  }
+  p.lc-desc {
+    text-align: center;
+  }
+  div#lc-store div {
+    align-items: center;
   }
   section#locations div.location-block img.location-image {
     width: 250px;
