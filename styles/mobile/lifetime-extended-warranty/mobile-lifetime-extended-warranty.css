@@ -1,0 +1,19 @@
+section#lifetime-hero {
+  height: 22rem;
+  width: 100%;
+}
+
+section#lifetime-hero h1 {
+  font-size: 1.4rem;
+}
+section#lifetime-hero h2 {
+  font-size: 1.2rem;
+  width: 75%;
+  text-align: center;
+  font-weight: 400;
+}
+
+section#lifetime-info img.lifetime-graphic {
+  width: 80%;
+  height: auto;
+}

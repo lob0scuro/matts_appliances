@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     height: auto;
     margin-bottom: 0;
-    padding-inline: 2rem;
+    padding: 1.4rem 0.6rem;
   }
 
   header img#header-logo {
@@ -20,12 +20,15 @@
 
   header div.mobile-spacer {
     display: block;
-    width: 3.2rem;
+    width: 1.7rem;
   }
 
   header nav#nav-links {
     flex: 1;
-    gap: 0.5rem;
+    gap: 1.2rem;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid blue; */
   }
   header nav#nav-links a {
     font-size: 0.8rem;
@@ -37,7 +40,9 @@
     box-shadow: none;
     padding: 0;
     font-weight: 700;
-    /* font-size: 0.9rem; */
+    font-size: 0.9rem;
+    text-align: center;
+    display: none;
   }
 
   header nav#nav-links.hide {
